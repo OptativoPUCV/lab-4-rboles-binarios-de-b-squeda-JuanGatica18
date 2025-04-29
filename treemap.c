@@ -82,6 +82,11 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
             tree->current = actual;
             return actual->pair;
         }
+        else if (tree->lower_than(key,actual->pair->key))
+        {
+            actual = actual->left;
+        }
+        
         else
         {
             actual = actual->right;
