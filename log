@@ -60,3 +60,9 @@ ma., 29 de abr. de 2025 20:07:52:
  tests:  12|6
 total_score: 15/70
 db0642a
+ma., 29 de abr. de 2025 20:08:44: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  13|5
+total_score: 25/70
+21d5990
