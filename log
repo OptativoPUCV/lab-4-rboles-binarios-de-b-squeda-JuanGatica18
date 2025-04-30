@@ -27,3 +27,8 @@ ma., 29 de abr. de 2025 19:47:14:
  tests:  11|6
 total_score: 15/70
 414c573
+ma., 29 de abr. de 2025 20:01:59: 
+ treemap.c | 39 +++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 39 insertions(+)
+ tests:  0|0
+58d5fe4
