@@ -203,13 +203,13 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
 
 Pair * upperBound(TreeMap * tree, void* key) {
     TreeNode *siguiente = tree->root;
-    TreeNode *upper = NULL;
+    TreeNode *upper_nodo = NULL;
 
     while (siguiente != NULL)
     {
         if (!tree->lower_than(siguiente->pair->key,key))
         {
-            upper = siguiente;
+            upper_nodo = siguiente;
             siguiente = siguiente->left;
         }
         else
