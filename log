@@ -161,3 +161,9 @@ treemap.c:206:15: error: variable 'upper_nodo' set but not used [-Werror=unused-
                ^~~~~~~~~~
 cc1.exe: all warnings being treated as errors
 a03be0f
+sá.,  3 de may. de 2025 17:10:25: 
+ treemap.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+ tests:  29|0
+total_score: 70/70
+9747887
