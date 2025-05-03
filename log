@@ -92,3 +92,17 @@ ma., 29 de abr. de 2025 22:46:19:
  tests:  22|2
 total_score: 45/70
 f35807a
+sá.,  3 de may. de 2025 16:56:01: 
+ treemap.c | 21 +++++++++++++++++++++
+ 1 file changed, 21 insertions(+)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'removeNode':
+treemap.c:113:36: error: statement with no effect [-Werror=unused-value]
+                 node->parent->left == NULL;
+                                    ^
+treemap.c:117:37: error: statement with no effect [-Werror=unused-value]
+                 node->parent->right == NULL;
+                                     ^
+cc1.exe: all warnings being treated as errors
+e2cd865
